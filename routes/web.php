@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 // rota para listar as séries
-Route::get('/series', [SeriesController::class, 'listarSeries']);
+Route::get('/series', [SeriesController::class, 'index']);
