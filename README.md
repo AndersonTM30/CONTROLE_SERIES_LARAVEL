@@ -10,4 +10,5 @@ Projeto construído para aprender os conceitos básicos do framework Laravel.
 ``` php artisan serve ``` - Cria um servidor http local na porta 8000. <br>
 ``` php artisan make:controller nomeDoController ``` - Cria uma classe controller com seu namespace. <br>
 ``` php artisan make:controller nomeDoController --resource ``` - Cria uma classe controller com seu namespace e todos os métodos com as actions padrões. <br>
+``` php artisan make:component nomeDoComponente ``` - Cria um componente e sua classe de componente para criar alguma lógica em específico.
 
