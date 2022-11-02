@@ -20,7 +20,7 @@ class SeriesController extends Controller
         // ]);
 
         // retorno mais compacto
-        return view('listar-series', compact('series'));
+        return view('listar-series')->with('series', $series);
 
     }
 }
