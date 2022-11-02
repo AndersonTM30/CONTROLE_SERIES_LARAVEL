@@ -14,12 +14,13 @@ class SeriesController extends Controller
             'Grey\'s Anatomy'
         ];
 
-        $html = '<ul>';
-        foreach($series as $serie) {
-            $html .= "<li>$serie</li>";
-        }
-        $html .= '</ul>';
-        // retorna uma resposta
-        return $html;
+        // retorno mais verboso
+        // return view('listar-series', [
+        //     'series' => $series
+        // ]);
+
+        // retorno mais compacto
+        return view('listar-series', compact('series'));
+
     }
 }
