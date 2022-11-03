@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 // rota para listar as séries
 Route::get('/series', [SeriesController::class, 'index']);
+// cadastrar séries
+Route::get('/series/criar', [SeriesController::class, 'create']);
