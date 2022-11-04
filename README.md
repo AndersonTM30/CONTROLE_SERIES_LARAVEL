@@ -20,4 +20,5 @@ Projeto construído para aprender os conceitos básicos do framework Laravel.
 ### Configuração:
 ``` npm install ``` - Instala as dependências do Node Js. <br>
 ``` npm install laravel-mix --save-dev ``` - Instala o pacote do Mix. <br>
-Crie o arquivo ``` webpack.mix.js ``` na raiz do projeto e cole o comando ``` const mix = require('laravel-mix'); ``` e por fim execute o comando ``` npm run dev ``` para fazer o build do Mix (detalhe é que caso no package.json esteja configurado para iniciar o build pelo vite, alterar o o mix).
+Crie o arquivo ``` webpack.mix.js ``` na raiz do projeto e cole o comando ``` const mix = require('laravel-mix'); ``` e por fim execute o comando ``` npm run dev ``` para fazer o build do Mix (detalhe é que caso no package.json esteja configurado para iniciar o build pelo vite, alterar o o mix).<br>
+``` npm install bootstrap ``` - instala a dependência do Bootstrap (está que é configurada no webpack.mix.js).
