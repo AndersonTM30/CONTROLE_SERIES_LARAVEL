@@ -22,3 +22,5 @@ Route::get('/', function () {
 Route::get('/series', [SeriesController::class, 'index']);
 // cadastrar séries
 Route::get('/series/criar', [SeriesController::class, 'create']);
+//  inserir séries no banco de dados
+Route::post('/series/salvar', [SeriesController::class, 'store']);
