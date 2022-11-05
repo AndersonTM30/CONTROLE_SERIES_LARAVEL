@@ -11,6 +11,7 @@ Projeto construído para aprender os conceitos básicos do framework Laravel.
 ``` php artisan make:controller nomeDoController ``` - Cria uma classe controller com seu namespace. <br>
 ``` php artisan make:controller nomeDoController --resource ``` - Cria uma classe controller com seu namespace e todos os métodos com as actions padrões. <br>
 ``` php artisan make:component nomeDoComponente ``` - Cria um componente e sua classe de componente para criar alguma lógica em específico.
+```  php artisan make:model nomeDoModel ``` - Cria uma classe para mapeamento do banco de dados (ORM). <br>
 
 ## Configurando o Mix para processar css:
 ### Requisitos para instalar o Mix:
